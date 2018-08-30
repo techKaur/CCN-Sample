@@ -3,10 +3,10 @@ POST /v1/cable/area
 PUT /v1/cable/area?id=xxx
 DELETE /v1/cable/area?id=xxx
 
-GET /v1/cable/area/subArea?text=xxx
-POST /v1/cable/area/subArea
-PUT /v1/cable/area/subArea?id=xxx
-DELETE /v1/cable/area/subArea?id=xxx
+GET /v1/cable/subArea?text=xxx
+POST /v1/cable/subArea
+PUT /v1/cable/subArea?id=xxx
+DELETE /v1/cable/subArea?id=xxx
 
 GET /v1/cable/sob?text=xxx
 POST /v1/cable/sob
@@ -17,3 +17,8 @@ GET /v1/cable/employee?text=xxx
 POST /v1/cable/employee
 PUT /v1/cable/employee?id=xxx
 DELETE /v1/cable/employee?id=xxx
+
+GET /v1/cable/subscriber?text=xxx
+POST /v1/cable/subscriber
+PUT /v1/cable/subscriber?id=xxx
+DELETE /v1/cable/subscriber?id=xxx
