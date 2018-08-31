@@ -22,28 +22,3 @@ GET /v1/cable/subscriber?text=xxx
 POST /v1/cable/subscriber
 PUT /v1/cable/subscriber?id=xxx
 DELETE /v1/cable/subscriber?id=xxx
-
-
-collection : area, subArea, setOfBox, user
-
-{
-areaId
-areaName
-areaAdd1
-areaAdd2
-areaCity
-areaPinCode
-areaOwner:
-}
-
-{
-
-
-
-userId
-userName
-password
-userRole
-userType
-
-
