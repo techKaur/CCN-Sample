@@ -1,0 +1,60 @@
+
+collection : area, setOfBox, user, role
+
+{
+_id:ar00001(2char5Numeric)
+name
+add1
+add2
+city
+pinCode
+ownerFullName:
+type: main/subArea
+createDt
+updateDt
+}
+
+{
+_id:
+number:
+vcNo
+safNo
+uaMacNo
+model
+status: available/faulty/inRepair/inUse
+ownerFullName:
+history:[{
+	startDate:
+	status:available/faulty/inRepair/inUse
+	location: warehouse/headOffice/subscriberFullName
+	}]
+createdDt
+updatedDt
+}
+
+{
+_id:2018310801(yyyyDDmm2numeric)
+fullName
+loginId
+password
+identificationType: aadharCard, passport, voterCard
+identificationNo
+type: areaOwner/subAreaOwner/employee/subscriber
+add1
+add2
+city
+pinCode
+role: superAdmin/admin/collector/watcher
+}
+
+{
+_id
+name: superAdmin/admin/collector/watcher
+Access:{
+		Read: [<PageName1>,<PageName2>],
+		Add: [<PageName3>,<PageName4>],
+		Edit: [<PageName3>,<PageName4>],
+		Delete: [<PageName3>,<PageName4>]
+	}
+
+}
