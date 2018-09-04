@@ -22,3 +22,13 @@ GET /v1/cable/subscriber?text=xxx
 POST /v1/cable/subscriber
 PUT /v1/cable/subscriber?id=xxx
 DELETE /v1/cable/subscriber?id=xxx
+
+GET /v1/cable/package?name=xxx
+POST /v1/cable/package
+PUT /v1/cable/package?name=xxx
+DELETE /v1/cable/package?name=xxx
+
+GET /v1/cable/customer?text=xxx
+POST /v1/cable/customer
+PUT /v1/cable/customer?id=xxx
+DELETE /v1/cable/customer?id=xxx
